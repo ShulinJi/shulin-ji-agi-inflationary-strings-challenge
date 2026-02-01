@@ -2,9 +2,7 @@
 
 ## How to Run
 Make sure you have Python 3 installed.
-
-```bash
-python theAdvantageGroup.py
+python theAdvantageGroup.py and enter the string you want to inflat
 
 ## Design
 The program scans the string from left to right.
@@ -17,7 +15,10 @@ If no match is found, it simply copies the current character and moves forward b
 
 Time complexity: O(n * k), k is the lenghth of possible word match, n is the length of given string
 Space complexity: O(n), n is the length of given string
+
 ## Tradeoffs
 To keep the solution simple and reasonable for a 45-minute exercise, the program only supports number words from zero to twenty.
 Handling patterns beyond this range (like twenty one or one hundred) would require more complex parsing logic, which was intentionally left out.
 However, the current program has very limited ways to scale for large number ranges!
+
+## No AI Usage
